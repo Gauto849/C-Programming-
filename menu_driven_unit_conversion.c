@@ -15,21 +15,21 @@ int main() {
     switch(choice) {
         case 1: {
             factor = pow(10,3);
-            printf("%d KM = %d meters", val, val*factor);
+            printf("\n%d KM = %d meters", val, val*factor);
             break;
         }
         case 2: {
             factor = pow(10,5);
-            printf("%d KM = %d centimeters", val, val*factor);
+            printf("\n%d KM = %d centimeters", val, val*factor);
             break;
         }
         case 3: {
             factor = pow(10,6);
-            printf("%d KM = %d  millimeters", val, val*factor);
+            printf("\n%d KM = %d  millimeters", val, val*factor);
             break;
         }
         default: {
-            printf(">>>Enter a Valid choice");
+            printf("\n>>>Enter a Valid choice");
             break;
         }
         
